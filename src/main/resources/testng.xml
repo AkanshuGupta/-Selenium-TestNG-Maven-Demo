@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite" thread-count="3" parallel="classes">
+
+	<listeners>
+		<listener class-name="com.crm.qa.reports.ExtentReporterNG"></listener>
+	</listeners>
+
+	<test name="Testing">
+		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
+		<classes>
+			<class name="com.crm.qa.testcases.MovieInformationTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
