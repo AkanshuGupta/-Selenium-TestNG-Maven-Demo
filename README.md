@@ -12,6 +12,6 @@ sample project for TestVagrant Technologies-Code Assessment
 
 #run test without IDE
 1. DownLoad or clone project in your machine
-2. Open folder Directory
+2. Open parent folder Directory
 3. Open CMD
-4. run command mvn clean verify
+4. run command: mvn clean verify
